@@ -19,14 +19,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="grid grid-cols-3 max-w-6xl mx-auto">
-          <div className="hidden sm:inline h-screen border-r">
+        <div className="grid grid-cols-7 max-w-6xl mx-auto">
+          <div className="hidden sm:inline h-screen border-r col-span-2 px-2">
             <Sidebar />
           </div>
-          {/* end of sidebar conatiner */}
-          <div className="h-screen border-r">{children}</div>
-          {/* end of children conatiner */}
-          <div className="h-screen border-r">
+          {/* end of sidebar conatainer */}
+          <div className="h-screen border-r col-span-3 px-2">{children}</div>
+          {/* end of children container */}
+          <div className="h-screen  px-2 col-span-2  ">
+            <div className="sticky top-0  bg-white py-2">
+              <input
+                type="text"
+                placeholder="Search"
+                className="bg-gray-100  border border-gray-200 rounded-3xl text-sm w-full px-4 py-2"
+              />
+            </div>
             <News />
           </div>
           {/* end of new conatiner */}

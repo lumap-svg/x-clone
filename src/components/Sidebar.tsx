@@ -15,7 +15,7 @@ const Sidebar = () => {
         <HiHome className="h-7 w-7  " />
         <span className="font-bold hidden xl:inline">Home</span>
       </Link>
-      <button className="bg-blue-400 cursor-pointer text-white rounded-full  hover:brightness-95 w-48 h-9 transition-all duration-200 hidden xl:inline">
+      <button className="bg-blue-400 cursor-pointer text-white rounded-full font-semibold  hover:brightness-95 w-48 h-9 transition-all duration-200 hidden xl:inline">
         Sign in
       </button>
     </div>
