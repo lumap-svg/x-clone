@@ -20,13 +20,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="grid grid-cols-3 max-w-6xl mx-auto">
-          <div>
+          <div className="hidden sm:inline h-screen border-r">
             <Sidebar />
           </div>
           {/* end of sidebar conatiner */}
-          <div>{children}</div>
+          <div className="h-screen border-r">{children}</div>
           {/* end of children conatiner */}
-          <div>
+          <div className="h-screen border-r">
             <News />
           </div>
           {/* end of new conatiner */}
