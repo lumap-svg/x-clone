@@ -1,7 +1,12 @@
 import React from "react";
 
 const Home = () => {
-  return <div>X clone the beging</div>;
+  return (
+    <>
+      <h2>Home page</h2>
+      <div>X clone the beginng</div>
+    </>
+  );
 };
 
 export default Home;
