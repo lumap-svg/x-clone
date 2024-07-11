@@ -26,7 +26,7 @@ export default function RootLayout({
           {/* end of sidebar conatainer */}
           <div className="h-screen border-r col-span-3 px-2">{children}</div>
           {/* end of children container */}
-          <div className="h-screen  px-2 col-span-2  ">
+          <div className="h-screen  px-2 col-span-2 overflow-y-auto scrollbar-thin ">
             <div className="sticky top-0  bg-white py-2">
               <input
                 type="text"

@@ -4,15 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "image.cnbcfm.com",
-      },
-      {
-        protocol: "https",
-        hostname: "a57.foxnews.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.vox-cdn.com",
+        hostname: "**",
       },
     ],
   },
